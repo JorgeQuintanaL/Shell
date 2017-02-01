@@ -1,6 +1,7 @@
 #!/bin/bash
 
 TIME_PARTITION="$1"
+##REGION="$2"
 
 if [ $# -ne 1 ]; then
 	echo "Illegal number of parameters"
