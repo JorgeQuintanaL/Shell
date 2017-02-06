@@ -57,7 +57,7 @@
 			echo ${MY_HQLFILE}
 			echo ${MY_TB}
                         echo "............Creating ${MY_TB}................."
-                        #hive --hiveconf MY_DB=${MY_DB} --hiveconf MY_TB=${MY_TB} --hiveconf MY_DATAPATH=${MY_DATAPATH} -f ./hql/${MY_HQLFILE}
+                        hive --hiveconf MY_DB=${MY_DB} --hiveconf MY_TB=${MY_TB} --hiveconf MY_DATAPATH=${MY_DATAPATH} -f ./hql/${MY_HQLFILE}
                 done
 
 
